@@ -1,0 +1,82 @@
+/* Apply some basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding-right: 15%;
+    padding-left: 15%;
+    box-sizing: border-box;
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+.headercontent {
+    flex-grow: 1;
+    text-align: center;
+}
+#headercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    border: 1px solid #ddd;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+    margin-bottom:10px;
+}
+article a {
+    text-decoration: none; /* Remove underline from link */
+    color: #ffffff; /* Set to your desired color, e.g., white */
+    display: block; /* Makes the link fill the entire article area */
+}
+
+article:hover {
+    background-color: #a74b57fb;
+}
+
+
+a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+footer {
+    text-align:center;
+}
+
